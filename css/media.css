@@ -1,0 +1,220 @@
+/* 992px - 1200px */
+@media screen  and (max-width: 1200px) {
+    .screen1 , .screen4 {
+        display: none;
+    }
+    .screen2 {
+        position: absolute;
+        left: -70px;
+    }
+    .screen3 {
+        position: absolute;
+        right: -70px;
+    }
+    .starter-wrapper {
+        padding: 60px 30px 70px 30px;
+    }
+    .pro-wrapper {
+        padding: 45px 30px;
+    }
+}
+
+/* 768px - 992px */
+@media screen  and (max-width: 992px) {
+    .protection-paragraph {
+        color: #41444a;
+    }
+    .screen2 {
+        left: -200px;
+    }
+    .screen3 {
+        right: -200px;
+    }
+    .plan-wrapper {
+        text-align: center;
+    }
+    .switch {
+        margin: 0px auto;
+    }
+    .plan-info {
+        margin: 75px auto 45px auto;
+    }
+    .choose-wrapper {
+        justify-content: center;
+        margin-top: 50px;
+
+    }
+    .starter-wrapper {
+        padding: 60px 45px 70px 45px;
+    }
+    .pro-wrapper {
+        padding: 45px 37px;
+    }
+    
+}
+
+/* 576px - 768px */
+@media screen  and (max-width: 768px) {
+    .menu-list {
+        display: none;
+    }
+    .help {
+        display: none;
+    }
+    .contacts {
+        display: none;
+    }
+    .adopt-wrapper {
+        background: url(../img/alarm.png) no-repeat top right;
+        margin-top: 35px;
+        text-align: right;
+    }
+    .screen2 {
+        left: -280px;
+    }
+    .screen3 {
+        right: -280px;
+    }
+    .slider-content {
+        width: 100%;
+    }
+    .choose-wrapper {
+        flex-direction: column;
+    }
+    .starter-wrapper {
+        width: 90%;
+    }
+    .pro-wrapper {
+        width: 80%;
+        margin-top: 20px;
+    }
+    .form-subscribe {
+        width: 90%;
+    }
+    .subscribe-input {
+        width: 70%;
+    }
+    .send-invite {
+        width: 50%;
+        justify-content: center;
+    }
+    .footer-info {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .footer-menu {
+        width: auto;
+    }
+    .footer-menu-wrapper {
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+    .love-wrapper {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .more-info {
+        text-align: center;
+    }
+    
+}
+
+/* 320px - 576px */
+@media screen  and (max-width: 576px) {
+    .container {
+        width: 95%;
+    }
+    .burger-menu {
+        transform: translateX(-100%);
+        width: 100%;
+    }
+    .show-menu {
+        transform: translateX(0);
+    }
+    .header-title {
+        font-size: 2.5em;
+    }
+    .header-paragraph {
+        padding: 0;
+    }
+    .logo-wrapper {
+        display: none;
+    }
+    .adopt-wrapper {
+        background: url(../img/alarm.png) no-repeat top right 35px;
+        padding-right: 35px;
+        padding-left: 0;
+    }
+    .btn-wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 250px;
+    }
+    .hack-btn {
+        width: 90%;
+        margin-right: 0;
+        justify-content: space-around;
+    }
+    .learn-more {
+        margin-top: 20px;
+    }
+    .everywhere-images img:last-child {
+        margin-top: 20px;
+    }
+    .screen2 {
+        display: none;
+    }
+    .screen3 {
+        display: none;
+    }
+    .download-form {
+        margin-bottom: 60px;
+        position: relative;
+        width: 95%;
+    }
+    .email-input {
+        padding: 15px 0px;
+        width: 80%;
+    }
+    .send-invite {
+        position: absolute;
+        width: 70%;
+        top: 70px;
+        right: 0;
+        left: 0;
+    }
+    .app-store {
+        margin-top: 100px;
+    }
+    .plan-info {
+        width: 95%;
+    }
+    .starter-btn {
+        width: 80%;
+    }
+    .pro-wrapper {
+        width: 90%;
+        padding: 45px 5px;
+    }
+    .starter-wrapper {
+        padding: 60px 5px 70px 5px;
+    }
+    .promise {
+        margin-top: 80px;
+    }
+    .footer-menu-wrapper {
+        display: none;
+    }
+    .main-screen {
+        width: 90%;
+    }
+    .arrow-slider.next-arrow.slick-arrow {
+        display: none !important;
+    }
+    .arrow-slider.prev-arrow.slick-arrow {
+        display: none !important;
+    }
+    .slider-images {
+        width: 100%;
+    }
+}
