@@ -158,8 +158,10 @@
     .learn-more {
         margin-top: 20px;
     }
-    .everywhere-images img:last-child {
-        margin-top: 20px;
+    .everywhere-images {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
     .screen2 {
         display: none;
