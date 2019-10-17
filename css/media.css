@@ -163,7 +163,7 @@
         flex-direction: column;
         align-items: flex-start;
     }
-    .everywhere-images img:last-child {
+    .everywhere-images img {
         margin-top: 20px;
     }
     .screen2 {
