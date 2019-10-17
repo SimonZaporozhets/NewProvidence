@@ -65,7 +65,7 @@ $(document).ready(function(){
             });
         $('.close-menu').click(function(e) {
               $('.burger-menu').toggleClass('show-menu');
-
+              $(".burger-menu").collapse('hide');
               e.preventDefault();
             });
 
