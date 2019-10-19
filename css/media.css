@@ -128,14 +128,6 @@
     .slick-prev.slick-arrow {
         display: none !important;
     }
-    .blue-btn-hover:hover {
-        border: none;
-        color: white;
-        background-color:  #267df4;
-    }
-    .btn-play-hover:hover {
-        background-color: none !important;
-    }
     
 }
 
