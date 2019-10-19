@@ -128,6 +128,23 @@
     .slick-prev.slick-arrow {
         display: none !important;
     }
+    .blue-btn-hover:hover {
+        border: none;
+        color: white;
+        background-color:  #267df4;
+    }
+    .blue-btn-hover:active {
+        border: 1px solid #267df4;
+        color: #267df4;
+        background-color: #f7f7f7;
+        transition: 0.1s;
+    }
+    .btn-play-hover:hover {
+        background-color: none !important;
+    }
+    .btn-play-hover:active {
+        background-color: #cbd2da !important;
+    }
     
 }
 
