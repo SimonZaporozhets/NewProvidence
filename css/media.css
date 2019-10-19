@@ -116,6 +116,18 @@
     .more-info {
         text-align: center;
     }
+    .arrow-slider.next-arrow.slick-arrow {
+        display: none !important;
+    }
+    .arrow-slider.prev-arrow.slick-arrow {
+        display: none !important;
+    }
+    .slick-next.slick-arrow {
+        display: none !important;
+    }
+    .slick-prev.slick-arrow {
+        display: none !important;
+    }
     
 }
 
