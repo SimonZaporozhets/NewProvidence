@@ -58,14 +58,14 @@ $(document).ready(function(){
     
     
 //    burger menu 
-        $('.burger-menu-icon').click(function(e) {
+        $('.burger-menu-icon').on('click touchstart', function(e) {
               $('.burger-menu').toggleClass('show-menu');
 
               e.preventDefault();
             });
-        $('.close-menu').click(function(e) {
+        $('.close-menu').on('click touchstart',function(e) {
               $('.burger-menu').toggleClass('show-menu');
-              $(".burger-menu").collapse('hide');
+
               e.preventDefault();
             });
 
