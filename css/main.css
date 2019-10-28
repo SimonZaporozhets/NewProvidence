@@ -160,9 +160,9 @@ header {
 .close-menu {
     position: absolute;
     right: 50px;
-    font-size: 1.5em;
+    font-size: 1.9em;
     cursor: pointer;
-    top: -30px;
+    top: -10px;
 }
 .show-menu {
     transform: translateX(0px);
